@@ -1,4 +1,4 @@
-package com.productsapi.models;
+package com.productsapi.productsapi.models;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
