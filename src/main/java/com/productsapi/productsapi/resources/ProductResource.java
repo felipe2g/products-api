@@ -43,4 +43,9 @@ public class ProductResource {
 		productRepository.delete(product);
 	}
 	
+	//TODO - Use id in PathVariable to find product and change then.
+	@PutMapping("/products")
+	public Product changeProduct(@RequestBody Product product) {
+		return productRepository.save(product);
+	}
 }
